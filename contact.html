@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Request Free Scan | Novazen</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Get Your Free Scan</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="form-section">
+    <form id="leadForm">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" required>
+
+      <label for="website">Company/Website URL</label>
+      <input type="url" id="website" required>
+
+      <label for="message">Any notes or concerns?</label>
+      <textarea id="message" rows="4"></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+    <p id="confirmation" class="hidden">Thanks! We'll get back to you shortly.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Novazen Technologies</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
