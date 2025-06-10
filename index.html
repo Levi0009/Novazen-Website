@@ -1,129 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Novazen</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      font-family: 'Inter', sans-serif;
-      background: #0d1117;
-      color: #f5f5f5;
-      line-height: 1.6;
-    }
-    header {
-      background: #161b22;
-      padding: 2rem 1rem;
-      text-align: center;
-      border-bottom: 1px solid #30363d;
-    }
-    header h1 {
-      font-size: 2.5rem;
-      color: #58a6ff;
-    }
-    header p {
-      margin-top: 0.5rem;
-      font-size: 1.2rem;
-      color: #8b949e;
-    }
-
-    section {
-      padding: 4rem 1.5rem;
-      max-width: 1000px;
-      margin: auto;
-    }
-
-    .section-title {
-      font-size: 2rem;
-      margin-bottom: 1rem;
-      border-left: 5px solid #58a6ff;
-      padding-left: 0.5rem;
-    }
-
-    .services-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 2rem;
-      margin-top: 2rem;
-    }
-
-    .service {
-      background: #21262d;
-      padding: 1.5rem;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-      transition: transform 0.3s ease;
-    }
-
-    .service:hover {
-      transform: translateY(-5px);
-    }
-
-    .service h3 {
-      color: #58a6ff;
-      margin-bottom: 0.5rem;
-    }
-
-    footer {
-      background: #161b22;
-      text-align: center;
-      padding: 2rem 1rem;
-      color: #8b949e;
-      font-size: 0.9rem;
-      border-top: 1px solid #30363d;
-    }
-
-    @media (max-width: 600px) {
-      header h1 { font-size: 2rem; }
-      .section-title { font-size: 1.5rem; }
-    }
-  </style>
+  <meta charset="UTF-8">
+  <title>Novazen Technologies</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
   <header>
     <h1>Novazen Technologies</h1>
-    <p>Cybersecurity & IT Solutions for the Digital Era</p>
+    <p>Your Cybersecurity Partner — Offering Free Penetration Testing Now</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Request Free Scan</a>
+    </nav>
   </header>
 
-  <section>
-    <h2 class="section-title">About Us</h2>
-    <p>Novazen Tech is a forward-thinking technology startup committed to helping businesses stay secure, scalable, and future-ready. We specialize in cybersecurity services, IT infrastructure, and software solutions tailored for startups, SMEs, and enterprise clients across Southeast Asia.</p>
-  </section>
-
-  <section>
-    <h2 class="section-title">Our Services</h2>
-    <div class="services-grid">
-      <div class="service">
-        <h3>🔐 Cybersecurity</h3>
-        <p>Penetration testing, network security, and threat audits to protect your business from cyber attacks.</p>
-      </div>
-      <div class="service">
-        <h3>🖥️ IT Consulting</h3>
-        <p>Build or scale your digital infrastructure with cloud, networking, and systems integration expertise.</p>
-      </div>
-      <div class="service">
-        <h3>💻 Web & App Development</h3>
-        <p>Custom-built websites, platforms, and apps tailored to your business goals and customer needs.</p>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <h2 class="section-title">Contact</h2>
-    <p>Email: <a href="mailto:hello@novazen-tech.com" style="color:#58a6ff">hello@novazen-tech.com</a></p>
-    <p>Phone: +856 XX XXX XXXX (example)</p>
+  <section class="hero">
+    <h2>Launch Offer: Free Vulnerability Scanning</h2>
+    <p>We’re offering early-stage businesses a free cybersecurity health check.</p>
+    <a class="btn" href="contact.html">Claim Offer</a>
   </section>
 
   <footer>
-    &copy; 2025 Novazen Tech. All rights reserved.
+    <p>&copy; 2025 Novazen Technologies</p>
   </footer>
 
+  <script src="js/main.js"></script>
 </body>
 </html>
